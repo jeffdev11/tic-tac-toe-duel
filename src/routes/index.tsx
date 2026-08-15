@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
 
 type Player = "X" | "O";
 type Cell = Player | null;
-type GameStatus = { winner: Player | "draw"; line: number[] | null } | null;
+type GameStatus = { winner: Player | "draw"; line: readonly number[] | null } | null;
 
 const WINNING_LINES = [
   [0, 1, 2],
