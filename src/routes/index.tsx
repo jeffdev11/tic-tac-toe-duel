@@ -96,7 +96,7 @@ function TicTacToe() {
             <Users className="h-6 w-6 text-primary-foreground" />
           </div>
           <h1 className="text-3xl font-bold tracking-tight">Jogo da Velha</h1>
-          <p className="mt-1 text-sm text-muted-foreground">Dois jogadores no mesmo computador</p>
+          <p className="mt-1 text-sm text-muted-foreground">Jogue com um amigo no mesmo computador</p>
         </header>
 
         <div className="mb-6 rounded-2xl border border-border bg-card p-5 shadow-sm">
