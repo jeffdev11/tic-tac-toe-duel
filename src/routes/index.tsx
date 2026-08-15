@@ -158,10 +158,10 @@ function TicTacToe() {
               >
                 <span
                   className={`${
-                    cell === "X"
-                      ? "text-x"
-                      : cell === "O"
-                      ? "text-o"
+                    cell && !isWinning
+                      ? cell === "X"
+                        ? "text-x"
+                        : "text-o"
                       : ""
                   }`}
                 >
