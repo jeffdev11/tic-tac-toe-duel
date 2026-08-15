@@ -29,7 +29,7 @@ const WINNING_LINES = [
   [2, 5, 8],
   [0, 4, 8],
   [2, 4, 6],
-];
+] as const;
 
 function checkWinner(board: Cell[]): GameStatus {
   for (const line of WINNING_LINES) {
