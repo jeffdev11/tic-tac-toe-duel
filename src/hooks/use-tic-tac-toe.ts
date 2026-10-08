@@ -59,7 +59,6 @@ export function useTicTacToe() {
     setBoard(Array(9).fill(null));
     setCurrentPlayer("X");
     setStatus(null);
-    setScores({ X: 0, O: 0, draws: 0 });
   }, []);
 
   const resetScores = useCallback(() => {
